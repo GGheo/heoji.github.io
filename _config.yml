@@ -14,8 +14,7 @@ sass:
 plainwhite:
   name: Jieun Heo
   tagline: 
-  date_format: "%b %-d, %Y"
-  sitemap: true # set to true to generate sitemap.xml content
+  dark_mode: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
   dark_mode: true # set to true to add dark mode toggle
   portfolio_image: "assets/heoji.png" # the path from the base directory of the site to the image to display (no / at the start)
@@ -24,14 +23,14 @@ plainwhite:
     #- home
     - page
     - post
+  navigation:
+    - title: My Work
+    - title; Resume
+    
   # generate social links in footer
   social_links:
     github:  GGheo
-    linkedIn: in/samarsault
-    Instagram: xeo.gi
-    #dribbble: jekyll
-    #flickr:   jekyll
-    #instagram: jekyll
+    instagram: xeo.gi
     #pinterest: jekyll
     #youtube: jekyll
     #facebook: jekyll
